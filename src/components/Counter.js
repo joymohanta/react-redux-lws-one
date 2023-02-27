@@ -12,7 +12,7 @@ const Counter = () => {
   };
 
   return (
-    <div className="bg-gray-300 w-2/4 mx-auto my-4 p-2">
+    <div className="bg-gray-300 w-1/3 mx-auto my-4 p-2">
       <h2 className="text-2xl pb-2">{count}</h2>
       <button
         onClick={increament}
