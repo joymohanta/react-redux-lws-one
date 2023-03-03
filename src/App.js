@@ -1,6 +1,7 @@
 import { Provider } from "react-redux";
 import "./App.css";
 import Counter from "./components/Counter";
+import DynamicHookCounter from "./components/DynamicHookCounter";
 import HooksCounter from "./components/HooksCounter";
 import store from "./redux/store";
 
@@ -12,6 +13,7 @@ function App() {
           Simple Counter Application
         </h1>
         <HooksCounter></HooksCounter>
+        <DynamicHookCounter></DynamicHookCounter>
       </div>
     </Provider>
   );
